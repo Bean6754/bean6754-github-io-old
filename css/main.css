@@ -2,7 +2,7 @@ body {
   background-color: #999999;
 }
 
-navbar {
+#navbar {
   color: #880000;
   font-family: Arial;
   font-size: 16px;
@@ -10,7 +10,7 @@ navbar {
   text-decoration: none;
 }
 
-headers {
+#headers {
   color: #880000;
   font-family: Arial;
   font-size: 42px;
