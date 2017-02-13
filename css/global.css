@@ -17,3 +17,19 @@ body {
   text-align: center;
   text-decoration: underline;
 }
+
+#headers > h2 {
+  color: #111111;
+  font-family: Arial;
+  font-size: 22px;
+  text-align: left;
+  text-decoration: underline;
+}
+
+#headers > h3 {
+  color: #111111;
+  font-family: Arial;
+  font-size: 20px;
+  text-align: left;
+  text-decoration: underline;
+}
