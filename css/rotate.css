@@ -1,0 +1,84 @@
+.image {
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	-webkit-animation:spin 1s linear infinite;
+	-moz-animation:spin 1s linear infinite;
+	animation:spin 1s linear infinite;
+}
+.image2 {
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	-webkit-animation:spin 1s linear infinite;
+	-moz-animation:spin 1s linear infinite;
+	animation:spin 1s linear infinite;
+}
+.image3 {
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	-webkit-animation:spin 1s linear infinite;
+	-moz-animation:spin 1s linear infinite;
+	animation:spin 1s linear infinite;
+}
+.image4 {
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	-webkit-animation:spin 1s linear infinite;
+	-moz-animation:spin 1s linear infinite;
+	animation:spin 1s linear infinite;
+}
+.image5 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-animation:spin 1s linear infinite;
+	-moz-animation:spin 1s linear infinite;
+	animation:spin 1s linear infinite;
+}
+.image6 {
+	position: absolute;
+	top: 60%;
+	left: 60%;
+	-webkit-animation:spin 1s linear infinite;
+	-moz-animation:spin 1s linear infinite;
+	animation:spin 1s linear infinite;
+}
+.image7 {
+	position: absolute;
+	top: 70%;
+	left: 70%;
+	-webkit-animation:spin 1s linear infinite;
+	-moz-animation:spin 1s linear infinite;
+	animation:spin 1s linear infinite;
+}
+.image8 {
+	position: absolute;
+	top: 80%;
+	left: 80%;
+	-webkit-animation:spin 1s linear infinite;
+	-moz-animation:spin 1s linear infinite;
+	animation:spin 1s linear infinite;
+}
+.image9 {
+	position: absolute;
+	top: 90%;
+	left: 90%;
+	-webkit-animation:spin 1s linear infinite;
+	-moz-animation:spin 1s linear infinite;
+	animation:spin 1s linear infinite;
+}
+.image10 {
+	position: absolute;
+	top: 100%;
+	left: 100%;
+	-webkit-animation:spin 1s linear infinite;
+	-moz-animation:spin 1s linear infinite;
+	animation:spin 1s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
