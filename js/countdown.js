@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("March 13, 2017 12:00:00").getTime();
+var countDownDate = new Date("March 9, 2017 15:59:45").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -21,6 +21,6 @@ var x = setInterval(function() {
   // If the count down is finished, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo").innerHTML = "Article 50 should now be successfully triggered!";
   }
 }, 1000);
