@@ -36,15 +36,15 @@ body {
 h2 {
   color: #111111;
   font-family: Arial;
-  font-size: 22px;
+  font-size: 24px;
   text-align: left;
   text-decoration: underline;
 }
 
 h3 {
   color: #111111;
-  font-family: Arial;
-  font-size: 20px;
+  font-family: Georgia, sans;
+  font-size: 22px;
   text-align: left;
-  text-decoration: underline;
+  text-decoration: none;
 }
