@@ -1,7 +1,9 @@
  #content {
-    color: #000000;
-    font-family: Helvetica, sans-serif;
-    font-size: 24px;
-    text-align: left;
-    text-decoration: none;
+  color: #000000;
+  font-family: Helvetica, sans-serif;
+  font-size: 24px;
+  left: 0;
+  text-align: left;
+  text-decoration: none;
+  top: 0;
 }
