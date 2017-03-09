@@ -24,3 +24,4 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "Article 50 should now be successfully triggered!";
   }
 }, 1000);
+//
