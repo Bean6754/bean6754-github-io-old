@@ -9,7 +9,7 @@ body {
 
 #time {
 	color: #FFFFFF;
-	font-family: Segoe UI, Arial, Helvetica;
+	font-family: Segoe UI, sans-serif;
 	font-weight: lighter;
 	font-size: 800%;
 	text-align: left;
@@ -20,7 +20,7 @@ body {
 
 #day {
 	color: #FFFFFF;
-	font-family: Segoe UI, Arial, Helvetica;
+	font-family: Segoe UI, sans-serif;
 	font-weight: lighter;
 	font-size: 400%;
 	text-align: left;
