@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+	<meta charset="UTF-8">
+	<title>Microsoft</title>
+	<link rel="shortcut icon" type="image/x-icon" href="img/logo.svg.png">
+	<link href="css/global.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div id="time">
+		
+	</div>
+	<div id="day">
+		
+	</div>
+	<div id="month">
+		
+	</div>
+	<script rel="javascript" type="text/javascript">
+	function checkTime(i) {
+  if (i < 10) {
+    i = "0" + i;
+  }
+  return i;
+}
+
+function startTime() {
+  var today = new Date();
+  var hour = today.getHours();
+  var min = today.getMinutes();
+  // add a zero in front of numbers<10
+  hour = checkTime(hour);
+  min = checkTime(min);
+  document.getElementById('time').innerHTML = hour + ":" + min;
+  t = setTimeout(function() {
+    startTime()
+  }, 500);
+}
+startTime();
+</script>
+<script rel="javascript" type="text/javascript">
+	function checkDate(j) {
+  if (j < 10) {
+    j = "0" + j;
+  }
+  return j;
+}
+	function startDate() {
+		var day_string = new Date();
+		var month = new Date();
+		var day = new Date();
+		
+		var days_string = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+		var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+		
+		document.getElementById("day").innerHTML = days_string[day_string.getDay()] + ", " + months[month.getMonth()] + " " + day.getDay();
+		d = setTimeout(function() {
+			startDate()
+		}, 500);
+	}
+	startDate();
+</script>
+</body>
+</html>
