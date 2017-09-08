@@ -49,7 +49,7 @@
 				// var targ=e.target?e.target:e.srcElement;
 				// move div element
 				// targ.style.left=coordX+e.clientX-offsetX+'px';
-				targ.style.top2=coordY+e.clientY-offsetY+'px';
+				targ.style.top2=coordY+e.clientY-offsetY+'%';
 				return false;
 			}
 			window.onload = function() {
