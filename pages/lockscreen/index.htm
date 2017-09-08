@@ -52,8 +52,9 @@ startTime();
 		
 		var days_string = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 		var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+		var days = ["1","2","3","4","5","6","7","8","9","10","11","12","13"];
 		
-		document.getElementById("day").innerHTML = days_string[day_string.getDay()] + ", " + months[month.getMonth()] + " " + day.getDay();
+		document.getElementById("day").innerHTML = days_string[day_string.getDay()] + ", " + months[month.getMonth()] + " " + days[day.getDay()];
 		d = setTimeout(function() {
 			startDate()
 		}, 500);
