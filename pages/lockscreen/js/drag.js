@@ -26,7 +26,7 @@
 				coordY = parseInt(targ.style.top);
 				drag = true;
 	  			coordY = parseInt(targ.style.bottom);
-	  			drag = true;
+	  			drag = false;
 
 				// move div element
 					document.onmousemove=dragDiv;
