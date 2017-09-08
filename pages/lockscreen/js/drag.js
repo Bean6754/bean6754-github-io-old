@@ -40,6 +40,7 @@
 				// move div element
 				// targ.style.left=coordX+e.clientX-offsetX+'px';
 				targ.style.top=coordY+e.clientY-offsetY+'px';
+				targ.style.bottom=coordY+e.clientY-offsetY+'px';
 				return false;
 			}
 			function stopDrag() {
