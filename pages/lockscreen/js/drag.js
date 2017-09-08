@@ -18,15 +18,12 @@
 				// assign default values for top and left properties
 				// if(!targ.style.left) { targ.style.left='0px'};
 				if (!targ.style.top) { targ.style.top='0px'};
-	  			if (!targ.style.bottom) { targ.style.bottom='0px'};
 
 				// calculate integer values for top and left 
 				// properties
 				// coordX = parseInt(targ.style.left);
 				coordY = parseInt(targ.style.top);
 				drag = true;
-	  			coordY = parseInt(targ.style.bottom);
-	  			drag = false;
 
 				// move div element
 					document.onmousemove=dragDiv;
@@ -40,7 +37,6 @@
 				// move div element
 				// targ.style.left=coordX+e.clientX-offsetX+'px';
 				targ.style.top=coordY+e.clientY-offsetY+'px';
-				targ.style.bottom=coordY+e.clientY-offsetY+'px';
 				return false;
 			}
 			function stopDrag() {
