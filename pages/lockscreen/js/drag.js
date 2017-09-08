@@ -18,6 +18,7 @@
 				// assign default values for top and left properties
 				// if(!targ.style.left) { targ.style.left='0px'};
 				if (!targ.style.top) { targ.style.top='0px'};
+	  			if (!targ.style.top2) { targ.style.top2='100%'};
 
 				// calculate integer values for top and left 
 				// properties
@@ -42,7 +43,17 @@
 			function stopDrag() {
 				drag=false;
 			}
+			function doDrag(e) {
+				if (!drag) {return};
+				if (!e) { var e= window.event};
+				// var targ=e.target?e.target:e.srcElement;
+				// move div element
+				// targ.style.left=coordX+e.clientX-offsetX+'px';
+				targ.style.top2=coordY+e.clientY-offsetY+'px';
+				return false;
+			}
 			window.onload = function() {
 				document.onmousedown = startDrag;
 				document.onmouseup = stopDrag;
+				document.keydown = doDrag;
 			}
