@@ -7,6 +7,13 @@ body {
     background-attachment: fixed; */
 }
 
+#lockscreen {
+	background-image: url("../img/screen.jpg");
+	background-repeat: no-repeat;
+	height: 800px;
+	width: 800px;
+}
+
 #time {
 	color: #FFFFFF;
 	font-family: Segoe UI, sans-serif;
