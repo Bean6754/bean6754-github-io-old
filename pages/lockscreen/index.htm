@@ -46,15 +46,15 @@ startTime();
   return j;
 }
 	function startDate() {
-		var TodayDate = new Date();
 		var day_string = new Date();
 		var month = new Date();
-		var day = TodayDate.getDay();
+		var day = new Date();
 		
 		var days_string = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 		var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+		// var days = []
 		
-		document.getElementById("day").innerHTML = days_string[day_string.getDay()] + ", " + months[month.getMonth()] + " " + day.TodayDate();
+		document.getElementById("day").innerHTML = days_string[day_string.getDay()] + ", " + months[month.getMonth()] + " " + day.getDay();
 		d = setTimeout(function() {
 			startDate()
 		}, 500);
