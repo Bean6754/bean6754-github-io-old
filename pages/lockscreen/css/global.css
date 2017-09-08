@@ -35,3 +35,11 @@ body {
     bottom: 10%;
     left: 2%;
 }
+
+#login {
+	color: #FFFFFF;
+	font-family: Segoe UI, sans-serif;
+	font-weight: lighter;
+	font-size: 100%;
+	text-align: left;
+}
