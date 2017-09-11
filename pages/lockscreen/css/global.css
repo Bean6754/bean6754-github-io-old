@@ -1,18 +1,18 @@
 body {
 	background-color: #000000;
-	/* background-image: url("../img/screen.jpg");
-	background-size: 100%;
+	background-image: url("../img/screen.jpg");
+	/* background-size: 100%;
 	background-repeat: no-repeat;
     background-position: left top;
     background-attachment: fixed; */
 }
 
-#lockscreen {
+/*#lockscreen {
 	background-image: url("../img/screen.jpg");
 	background-repeat: no-repeat;
 	height: 800px;
 	width: 800px;
-}
+}*/
 
 #time {
 	color: #FFFFFF;
