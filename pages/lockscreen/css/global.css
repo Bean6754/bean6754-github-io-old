@@ -1,14 +1,19 @@
 body {
 	background-color: #000000;
-}
-
-#lockscreen {
 	background-image: url("../img/screen.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: left top;
 	background-attachment: fixed;
 }
+
+/* #lockscreen {
+	background-image: url("../img/screen.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-attachment: fixed;
+} */
 
 #time {
 	color: #FFFFFF;
