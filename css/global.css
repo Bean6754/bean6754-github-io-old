@@ -4,7 +4,7 @@ body {
 
 .navbar {
   background-color: #73AD21;
-  font-family: Arial;
+  font-family: Arial, Helvetica;
   font-size: 16px;
   margin-top: 0px;
   text-align: center;
@@ -18,10 +18,15 @@ body {
 
 #header {
   color: #880000;
-  font-family: Arial;
+  font-family: Arial, Helvetica;
   font-size: 24px;
   text-align: center;
   text-decoration: underline;
+}
+
+#header:hover {
+  color: #FF0000;
+  font-weight: bold;
 }
 
 #footer {
@@ -35,7 +40,7 @@ body {
 
 h2 {
   color: #111111;
-  font-family: Arial;
+  font-family: Arial, Helvetica;
   font-size: 24px;
   text-align: left;
   text-decoration: underline;
