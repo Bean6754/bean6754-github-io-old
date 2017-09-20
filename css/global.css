@@ -26,10 +26,9 @@ body {
 
 #header:hover {
   background-color: #303030;
-  /* border: 2px; */
+  border: 2px;
   color: #FF0000;
   font-weight: bold;
-  padding: 2px;
 }
 
 #footer {
