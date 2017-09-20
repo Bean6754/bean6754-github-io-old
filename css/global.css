@@ -17,6 +17,7 @@ body {
 }
 
 #header {
+  border: 2px solid #880000;
   color: #880000;
   font-family: Arial, Helvetica;
   font-size: 24px;
@@ -26,7 +27,7 @@ body {
 
 #header:hover {
   background-color: #303030;
-  border: 2px;
+  border: 2px solid #303030;
   color: #FF0000;
   font-weight: bold;
 }
