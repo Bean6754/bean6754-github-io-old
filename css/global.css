@@ -20,6 +20,7 @@ body {
   color: #880000;
   font-family: Arial, Helvetica;
   font-size: 24px;
+  left: 500px;
   position: absolute;
   text-align: center;
   text-decoration: underline;
@@ -29,6 +30,7 @@ body {
   background-color: #303030;
   color: #FF0000;
   font-weight: bold;
+  left: 500px;
   position: absolute;
 }
 
