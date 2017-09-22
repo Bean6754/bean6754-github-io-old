@@ -21,6 +21,6 @@ var x = setInterval(function() {
   // If the count down is finished, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "Article 50 should now be successfully triggered!";
+    document.getElementById("demo").innerHTML = "GDPR should now be successfully implemented!";
   }
 }, 1000);
