@@ -17,4 +17,4 @@ function get_browser() {
       version: M[1]
     };
  }
-console.log(get_browser);
+console.log(get_browser());
