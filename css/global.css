@@ -9,11 +9,22 @@ body {
   margin-top: 0px;
   text-align: center;
   text-decoration: none;
-  position: fixed;
+  /* position: fixed;
   top: 0;
   left: 0;
   width: 700px;
-  border: 3px solid #73AD21;
+  border: 3px solid #73AD21;*/
+  
+  padding: 20px;
+  border:1px solid #ffffff;
+  border-radius: 3.1415927%;
+  /*opacity: .90;*/
+  /*background-color: #282A2E;*/
+  /* background-color: #183359;*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
 #header {
