@@ -1,6 +1,5 @@
 body {
   background-color: #282828;
-  background-image: url("../img/dragon.gif");
 }
 
 .navbar {
@@ -36,8 +35,32 @@ body {
   position: absolute;
 }
 
-#fontButton:focus {
-  body { font-size: 24px; }
+.image-bottomleft,.image-center,.image-topright {
+	position: fixed;
+	max-width: 200px;
+	width: 45%;
+	opacity: .5;
+	z-index: -1;
+}
+
+.image-center {
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%)
+}
+
+.image-topright {
+	right: 0;
+	top: 0;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+	
+.image-bottomleft {
+	left: 0;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	bottom: 0;
 }
 
 #footer {
