@@ -35,7 +35,7 @@ body {
   position: absolute;
 }
 
-.image-bottomleft,.image-center,.image-topright {
+.img-bottomleft,.img-center,.img-topright {
 	position: fixed;
 	max-width: 200px;
 	width: 45%;
@@ -43,20 +43,20 @@ body {
 	z-index: -1;
 }
 
-.image-center {
+.img-center {
 	top: 50%;
 	left: 50%;
 	transform: translateX(-50%) translateY(-50%)
 }
 
-.image-topright {
+.img-topright {
 	right: 0;
 	top: 0;
 	padding-bottom: 0px;
 	padding-left: 0px;
 }
 	
-.image-bottomleft {
+.img-bottomleft {
 	left: 0;
 	padding-bottom: 0px;
 	padding-left: 0px;
