@@ -63,6 +63,10 @@ body {
 	bottom: 0;
 }
 
+#dragon {
+	border-radius: 10%;
+}
+
 #footer {
   bottom: 0;
   right: 0;
