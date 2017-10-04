@@ -24,7 +24,7 @@ body {
 }
 
 #container a:hover {
-  color: hotpink;
+  color: #F44277;
   text-decoration: none;
 }
 
@@ -34,7 +34,7 @@ body {
 }
 
 #container a:visited:hover {
-  color: hotpink;
+  color: #EA336A;
   text-decoration: none;
 }
 
