@@ -33,6 +33,11 @@ body {
   text-decoration: none;
 }
 
+#container a:visited:hover {
+  color: hotpink;
+  text-decoration: none;
+}
+
 #header {
   color: #880000;
   font-family: Arial, Helvetica;
