@@ -23,6 +23,11 @@ body {
   text-decoration: none;
 }
 
+#container a:hover {
+  color: hotpink;
+  text-decoration: none;
+}
+
 #container a:visited {
   color: #660000;
   text-decoration: none;
