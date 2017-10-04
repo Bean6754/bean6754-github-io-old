@@ -3,11 +3,11 @@ body {
 }
 
 #container {
-  background-color: #802BFF;
+  background-color: #C65EFF;
   font-family: Arial, Helvetica;
   font-size: 16px;
   padding: 20px;
-  border:1px solid #140030;
+  border:2px solid #140030;
   border-radius: 5%;
   /*opacity: .90;*/
   /*background-color: #282A2E;
