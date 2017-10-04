@@ -97,3 +97,11 @@ h3 {
 p {
   color: #FFFFFF;
 }
+
+a {
+  color: #770000;
+}
+
+a:visited {
+  color: #FFFFFF;
+}
