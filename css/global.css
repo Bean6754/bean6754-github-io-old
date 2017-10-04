@@ -18,6 +18,16 @@ body {
   transform: translateX(-50%) translateY(-50%);
 }
 
+#container a {
+  color: #770000;
+  text-decoration: none;
+}
+
+#container a:visited {
+  color: #660000;
+  text-decoration: none;
+}
+
 #header {
   color: #880000;
   font-family: Arial, Helvetica;
@@ -93,12 +103,4 @@ h3 {
 
 p {
   color: #FFFFFF;
-}
-
-a {
-  color: #770000;
-}
-
-a:visited {
-  color: #660000;
 }
