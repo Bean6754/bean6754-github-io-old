@@ -42,17 +42,14 @@ body {
   color: #880000;
   font-family: Arial, Helvetica;
   font-size: 24px;
-  padding-left: 2px;
   position: fixed;
   text-align: center;
   text-decoration: underline;
 }
 
 #header:hover {
-  background-color: #303030;
-  color: #FF0000;
+  color: #990000;
   font-weight: bold;
-  padding-left: 2px;
   position: fixed;
 }
 
