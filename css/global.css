@@ -32,6 +32,7 @@ body {
   color: #FF0000;
   font-weight: bold;
   position: fixed;
+}
 
 .img-bottomleft,.img-center,.img-topright {
 	position: fixed;
