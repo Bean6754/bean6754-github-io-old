@@ -43,7 +43,7 @@ body {
 }
 
 #navbar a {
-  color: #770000;
+  color: #FFFFFF;
   text-decoration: none;
 }
 
@@ -54,12 +54,12 @@ body {
 
 
 #navbar a:visited {
-  color: #660000;
+  color: #0061FF;
   text-decoration: none;
 }
 
 #navbar a:visited:hover {
-  color: #EA336A;
+  color: #1C73FF;
   text-decoration: none;
 }
 
