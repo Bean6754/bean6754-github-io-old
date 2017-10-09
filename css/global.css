@@ -1,3 +1,8 @@
+/*
+  Modified: 09/10/2017.
+*/
+/* Mostly in alphabetical order. */
+
 body {
   background-color: #282828;
 }
@@ -26,6 +31,36 @@ body {
 #header2:hover {
   color: #990000;
   font-weight: bold;
+}
+
+#navbar {
+  background-color: #572199;
+  font-family: Arial, Helvetica;
+  font-size: 16px;
+  padding: 20px;
+  border:2px solid #140030;
+  border-radius: 5%;
+}
+
+#navbar a {
+  color: #770000;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  color: #F44277;
+  text-decoration: none;
+}
+
+
+#navbar a:visited {
+  color: #660000;
+  text-decoration: none;
+}
+
+#navbar a:visited:hover {
+  color: #EA336A;
+  text-decoration: none;
 }
 
 .img-bottomleft,.img-center,.img-topright {
