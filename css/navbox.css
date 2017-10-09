@@ -15,21 +15,22 @@
 }
 
 #navbox a {
-  color: #770000;
+  color: #FFFFFF;
   text-decoration: none;
 }
 
 #navbox a:hover {
-  color: #F44277;
-  text-decoration: none;
+  color: #CCCCCC;
+  text-decoration: underline;
 }
 
+
 #navbox a:visited {
-  color: #660000;
+  color: #0061FF;
   text-decoration: none;
 }
 
 #navbox a:visited:hover {
-  color: #EA336A;
-  text-decoration: none;
+  color: #1C73FF;
+  text-decoration: underline;
 }
