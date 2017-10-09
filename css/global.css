@@ -50,7 +50,7 @@ body {
 
 #navbar a:hover {
   color: #CCCCCC;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 
@@ -61,7 +61,7 @@ body {
 
 #navbar a:visited:hover {
   color: #1C73FF;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .img-bottomleft,.img-center,.img-topright {
