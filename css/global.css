@@ -42,7 +42,7 @@ body {
   color: #880000;
   font-family: Arial, Helvetica;
   font-size: 24px;
-  position: fixed;
+  position: absolute;
   text-align: center;
   text-decoration: underline;
 }
@@ -50,7 +50,7 @@ body {
 #header:hover {
   color: #990000;
   font-weight: bold;
-  position: fixed;
+  position: absolute;
 }
 
 .img-bottomleft,.img-center,.img-topright {
