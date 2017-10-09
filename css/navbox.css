@@ -1,0 +1,35 @@
+#navbox {
+  background-color: #572199;
+  font-family: Arial, Helvetica;
+  font-size: 16px;
+  padding: 20px;
+  border:2px solid #140030;
+  border-radius: 5%;
+  /*opacity: .90;*/
+  /*background-color: #282A2E;
+  background-color: #183359;*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#navbox a {
+  color: #770000;
+  text-decoration: none;
+}
+
+#navbox a:hover {
+  color: #F44277;
+  text-decoration: none;
+}
+
+#navbox a:visited {
+  color: #660000;
+  text-decoration: none;
+}
+
+#navbox a:visited:hover {
+  color: #EA336A;
+  text-decoration: none;
+}
