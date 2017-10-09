@@ -1,17 +1,10 @@
 body {
 	background-color: #000000;
-	/* background-image: url("../img/screen.jpg");
+	background-image: url("../img/screen.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
-    background-position: left top;
-    background-attachment: fixed; */
-}
-
-#lockscreen {
-	background-image: url("../img/screen.jpg");
-	background-repeat: no-repeat;
-	height: 800px;
-	width: 800px;
+	background-position: left top;
+	background-attachment: fixed;
 }
 
 #time {
@@ -34,6 +27,15 @@ body {
 	position: absolute;
     bottom: 10%;
     left: 2%;
+}
+
+#footer {
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  font-size: 16px;
+  text-align: left;
+  text-decoration: none;
 }
 
 #login {
