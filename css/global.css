@@ -1,6 +1,7 @@
 /*
   Modified: 09/10/2017.
 */
+
 /* Mostly in alphabetical order. */
 
 body {
@@ -48,7 +49,7 @@ body {
 }
 
 #navbar a:hover {
-  color: #F44277;
+  color: #CCCCCC;
   text-decoration: none;
 }
 
