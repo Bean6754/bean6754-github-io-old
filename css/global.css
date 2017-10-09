@@ -15,6 +15,19 @@ body {
   font-weight: bold;
 }
 
+#header2 {
+  color: #880000;
+  font-family: Arial, Helvetica;
+  font-size: 18px;
+  text-align: left;
+  text-decoration: underline;
+}
+
+#header2:hover {
+  color: #990000;
+  font-weight: bold;
+}
+
 .img-bottomleft,.img-center,.img-topright {
 	position: fixed;
 	max-width: 200px;
