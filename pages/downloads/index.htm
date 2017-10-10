@@ -56,8 +56,11 @@
     cursor: pointer;
 }
 </style>
+<script src="js/bits.js" rel="javascript" type="text/css"></script>
 <script>
-  document.write("CPU :"+window.navigator.cpuClass); alert("CPU: "+window.navigator.cpuClass);
+  document.write( "Which is my current bits system architecture ? " + get_bits_system_architecture() + "<br>" );
+  document.write( "Is it 32 bits ? " + ( is_32bits_architecture() ? "YES" : "NO" ) + "<br>" );
+  document.write( "Is it 64 bits ? " + ( is_64bits_architecture() ? "YES" : "NO" ) );
 </script>
 <body>
   <div id="navbar">
