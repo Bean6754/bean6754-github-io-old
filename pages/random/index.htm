@@ -5,17 +5,23 @@
   <title>Random.</title>
 </head>
 <body>
+<script>
+  function random() {
+  var text = "";
+  var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+  
+  for (var i = 0; i < 5; i++)
+    text += possible.charAt(Math.floor(Math.random() * possible.length));
+  
+  return text;
+}
+document.getElementById("random") = random();
+</script>
   <div id="random">
     <marquee behavior="alternate" direction="right" scrollamount="500">Hello.</marquee>
     <marquee behavior="alternate" direction="left" scrollamount="500">Hello.</marquee>
     <marquee behavior="alternate" direction="right" scrollamount="500">Hello.</marquee>
     <marquee behavior="alternate" direction="left" scrollamount="500">Hello.</marquee>
   </div>
-<script>
-  var strarray = new Array("Random string1","Random string2","Random string3");
-    randomnum = Math.round(Math.random()*2);
-    para = document.getElementbyId('random');
-  para.innerHTML = strarray[randomnum]
-</script>
 </body>
 </html>
