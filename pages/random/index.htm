@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <title>Random.</title>
+</head>
+<body>
+<script>
+  var strarray = new Array("Random string1","Random string2","Random string3");
+    randomnum = Math.round(Math.random()*2);
+    para = document.getElementbyId('random');
+  para.innerHTML = strarray[randomnum]
+</script>
+  <div id="random">
+    <marquee behavior="alternate" direction="right" scrollamount="500">Hello.</marquee>
+    <marquee behavior="alternate" direction="left" scrollamount="500">Hello.</marquee>
+    <marquee behavior="alternate" direction="right" scrollamount="500">Hello.</marquee>
+    <marquee behavior="alternate" direction="left" scrollamount="500">Hello.</marquee>
+  </div>
+</body>
+</html>
