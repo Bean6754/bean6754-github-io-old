@@ -6,7 +6,6 @@
 </head>
 <body>
 <script>
-  function random() {
   var text = "";
   var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
   
@@ -14,8 +13,7 @@
     text += possible.charAt(Math.floor(Math.random() * possible.length));
   
   return text;
-}
-document.getElementById("random").innerHTML = random;
+  document.getElementById("random").innerHTML = text;
 </script>
   <div id="random">
     <marquee behavior="alternate" direction="right" scrollamount="500">Hello.</marquee>
