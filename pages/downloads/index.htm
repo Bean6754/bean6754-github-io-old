@@ -56,6 +56,14 @@
     cursor: pointer;
 }
 </style>
+<script>
+  if (navigator.userAgent.indexOf("WOW64") != -1 || 
+    navigator.userAgent.indexOf("Win64") != -1 ){
+   alert("This is a 64 bit OS");
+} else {
+   alert("Not a 64 bit OS");
+}
+</script>
 <body>
   <div id="navbar">
     <a href="../../index.htm">Home</a> | 
