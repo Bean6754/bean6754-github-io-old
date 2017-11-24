@@ -28,14 +28,14 @@
   margin:auto;
   width: 800px;
   position:absolute;
-  height: 266px;
+  height: 300px;
   left:0; right:0; top:0; bottom:0;
   text-align:center;
 }
 .viewer-body img{
   width:800px;
   max-width:auto;
-  height:266px;
+  height:300px;
 }
 .prev, .next{
   display:inline-block;
