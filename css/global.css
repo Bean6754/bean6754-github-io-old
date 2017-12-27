@@ -5,7 +5,7 @@
 /* Mostly in alphabetical order. */
 
 body {
-	background-color: #FAFAFA;
+	background-color: #FFFFFF;
 }
 
 #header {
@@ -35,7 +35,7 @@ body {
 }
 
 #navbar {
-  background-color: #572199;
+  background-color: #D9D9D9;
   font-family: Arial, Helvetica;
   font-size: 16px;
   padding: 20px;
@@ -62,12 +62,6 @@ body {
 #navbar a:visited:hover {
   color: #1C73FF;
   text-decoration: underline;
-}
-
-#content {
-	width: auto;
-	background-color: #FFFFFF;
-	border: 1px solid #E5E5E5;
 }
 
 .img-bottomleft,.img-center,.img-topright {
