@@ -1,11 +1,11 @@
 /*
-  Modified: 09/10/2017.
+  Modified: 27/12/2017.
 */
 
 /* Mostly in alphabetical order. */
 
 body {
-  background-color: #282828;
+  background-color: #EFEFF4;
 }
 
 #header {
@@ -44,7 +44,7 @@ body {
 }
 
 #navbar a {
-  color: #FFFFFF;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -112,7 +112,6 @@ a {
 }
 
 h2 {
-  color: #FFFFFF;
   font-family: Arial, Helvetica;
   font-size: 24px;
   text-align: left;
@@ -120,13 +119,8 @@ h2 {
 }
 
 h3 {
-  color: #FFFFFF;
   font-family: Arial, Georgia, sans;
   font-size: 22px;
   text-align: left;
   text-decoration: none;
-}
-
-p {
-  color: #FFFFFF;
 }
