@@ -4,6 +4,10 @@
 
 /* Mostly in alphabetical order. */
 
+body {
+	background-color: #E9EBEE;
+}
+
 #header {
   color: #880000;
   font-family: Arial, Helvetica;
@@ -58,6 +62,12 @@
 #navbar a:visited:hover {
   color: #1C73FF;
   text-decoration: underline;
+}
+
+#content {
+	width: auto;
+	background-color: #FFFFFF;
+	border: 1px solid #E5E5E5;
 }
 
 .img-bottomleft,.img-center,.img-topright {
