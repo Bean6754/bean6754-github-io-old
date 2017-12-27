@@ -9,7 +9,7 @@ body {
 }
 
 #header {
-  color: #880000;
+  color: #24292E;
   font-family: Arial, Helvetica;
   font-size: 24px;
   text-align: center;
@@ -17,12 +17,12 @@ body {
 }
 
 #header:hover {
-  color: #990000;
+  color: #16191C;
   font-weight: bold;
 }
 
 #header2 {
-  color: #880000;
+  color: #24292E;
   font-family: Arial, Helvetica;
   font-size: 18px;
   text-align: left;
@@ -30,7 +30,7 @@ body {
 }
 
 #header2:hover {
-  color: #990000;
+  color: #16191C;
   font-weight: bold;
 }
 
@@ -39,8 +39,8 @@ body {
   font-family: Arial, Helvetica;
   font-size: 16px;
   padding: 20px;
-  border:2px solid #140030;
-  border-radius: 5%;
+  border: 2px solid #140030;
+  border-radius: 10%;
 }
 
 #navbar a {
