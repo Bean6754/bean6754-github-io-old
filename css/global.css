@@ -11,7 +11,7 @@ body {
 #header h1 {
   color: #24292E;
   font-family: Arial, Helvetica;
-  font-size: 24px;
+  font-size: 34px;
   text-align: center;
   text-decoration: underline;
 }
@@ -24,7 +24,7 @@ body {
 #header2 h2 {
   color: #24292E;
   font-family: Arial, Helvetica;
-  font-size: 18px;
+  font-size: 30px;
   text-align: left;
   text-decoration: underline;
 }
@@ -112,14 +112,14 @@ a {
 
 h2 {
   font-family: Arial, Helvetica;
-  font-size: 24px;
+  font-size: 30px;
   text-align: left;
   text-decoration: underline;
 }
 
 h3 {
   font-family: Arial, Georgia, sans;
-  font-size: 22px;
+  font-size: 28px;
   text-align: left;
   text-decoration: none;
 }
