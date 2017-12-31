@@ -8,14 +8,14 @@
 	font-family: opensans-extrabolditalic;
 	src: url("../fonts/OpenSans-ExtraBoldItalic.ttf");
 	font-family: opensans-italic;
-	src: url("../fonts/OpenSans-Italic.ttf");
+	src: url("../fonts/OpenSans-Italic.ttf"); */
 	font-family: opensans-light;
 	src: url("../fonts/OpenSans-Light.ttf");
-	font-family: opensans-lightitalic;
-	src: url("../fonts/OpenSans-LightItalic.ttf"); */
+	/* font-family: opensans-lightitalic;
+	src: url("../fonts/OpenSans-LightItalic.ttf");
 	font-family: opensans-regular;
 	src: url("../fonts/OpenSans-Regular.ttf");
-	/* font-family: opensans-semibold;
+	font-family: opensans-semibold;
 	src: url("../fonts/OpenSans-Semibold.ttf");
 	font-family: opensans-semibolditalic;
 	src: url("../fonts/OpenSans-SemiboldItalic.ttf"); */
@@ -32,7 +32,7 @@ body {
 
 #time {
 	color: #FFFFFF;
-	font-family: opensans-regular, Segoe UI, sans-serif;
+	font-family: opensans-light, Segoe UI, sans-serif;
 	font-weight: lighter;
 	font-size: 800%;
 	text-align: left;
@@ -43,7 +43,7 @@ body {
 
 #day {
 	color: #FFFFFF;
-	font-family: opensans-regular, Segoe UI, sans-serif;
+	font-family: opensans-light, Segoe UI, sans-serif;
 	font-weight: lighter;
 	font-size: 400%;
 	text-align: left;
@@ -63,7 +63,7 @@ body {
 
 #login {
 	color: #FFFFFF;
-	font-family: opensans-regular, Segoe UI, sans-serif;
+	font-family: opensans-light, Segoe UI, sans-serif;
 	font-weight: lighter;
 	font-size: 100%;
 	text-align: left;
