@@ -8,7 +8,7 @@ body {
 	background-color: #FFFFFF;
 }
 
-#header {
+#header h1 {
   color: #24292E;
   font-family: Arial, Helvetica;
   font-size: 24px;
@@ -16,12 +16,12 @@ body {
   text-decoration: underline;
 }
 
-#header:hover {
+#header:hover h1 {
   color: #16191C;
   font-weight: bold;
 }
 
-#header2 {
+#header2 h2 {
   color: #24292E;
   font-family: Arial, Helvetica;
   font-size: 18px;
@@ -29,7 +29,7 @@ body {
   text-decoration: underline;
 }
 
-#header2:hover {
+#header2:hover h2 {
   color: #16191C;
   font-weight: bold;
 }
