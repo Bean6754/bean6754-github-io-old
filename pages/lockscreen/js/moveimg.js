@@ -1,5 +1,5 @@
 function myMove() {
-  var elem = document.getElementById("lockscreen");   
+  var elem = document.getElementById("background");   
   var pos = 0;
   var id = setInterval(frame, 5);
   function frame() {
