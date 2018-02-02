@@ -15,19 +15,21 @@ body {
 }
 
 #time {
-	color: #FFFFFF;
-	font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;;
-	font-size: 800%;
-	text-align: left;
-	position: absolute;
-    bottom: 20%;
-    left: 2%;
+  color: #FFFFFF;
+  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+  font-size: 800%;
+  font-weight: light;
+  text-align: left;
+  position: absolute;
+  bottom: 20%;
+  left: 2%;
 }
 
 #day {
-	color: #FFFFFF;
-	font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;;
-	font-size: 400%;
+  color: #FFFFFF;
+  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+  font-size: 400%;
+  font-weight: light;
   text-align: left;
   position: absolute;
   bottom: 10%;
@@ -44,8 +46,9 @@ body {
 }
 
 #login {
-	color: #FFFFFF;
-	font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;;
-	font-size: 100%;
-	text-align: left;
+  color: #FFFFFF;
+  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+  font-size: 100%;
+  font-weight: light;
+  text-align: left;
 }
