@@ -14,6 +14,10 @@ body {
   z-index: -1;*/
 }
 
+#background {
+  overflow: hidden;
+}
+
 #time {
   color: #fff;
   font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
