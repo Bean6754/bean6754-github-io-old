@@ -1,5 +1,5 @@
 function hideimg() {
-  var elem = document.getElementById("backgroundimg");
+  var elem = document.getElementById("lockscreen");
   var pos = 0;
   var id = setInterval(frame, 20);
   function frame() {
@@ -24,7 +24,8 @@ async function demo() {
 
 demo();
   
-  var img = document.getElementById('backgroundimg');
-    img.style.visibility = 'hidden';
+  $(document).ready(function(){
+    $("#lockscreen").remove();
+  });
 }
   
