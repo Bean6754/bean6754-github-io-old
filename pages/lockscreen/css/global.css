@@ -53,6 +53,10 @@ body {
   text-decoration: none;
 }
 
+#footer-logos {
+  margin: 4px 4px;
+}
+
 #login {
   color: #fff;
   font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
