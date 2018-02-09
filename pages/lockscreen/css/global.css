@@ -14,12 +14,18 @@ body {
   z-index: -1;*/
 }
 
-#background {
+#background img {
   position: fixed;
   top: 0;
   left: 0;
   
   z-index: -1;
+  
+  -khtml-user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 #time {
