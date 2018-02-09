@@ -1,13 +1,13 @@
 function hideimg() {
   $("#lockscreen").click(function(){
-  var dest = parseInt($("#block").css("margin-bottom").replace("px", "")) + 100;
+  var dest = parseInt($("#lockscreen").css("margin-bottom").replace("px", "")) + 100;
     if (dest > 500) {
-        $("#block").animate({
+        $("#lockscreen").animate({
             marginBottom: "10px"
           }, 500 );
     }
     else {
-      $("#block").animate({
+      $("#lockscreen").animate({
         marginBottom: dest + "px"
       }, 500 );
     }
