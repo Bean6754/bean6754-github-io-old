@@ -84,6 +84,8 @@ a {
   color: #fff;
   font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
   font-size: 100%;
+  margin: 0;
   font-weight: lighter;
   text-align: left;
+  width: 50%;
 }
