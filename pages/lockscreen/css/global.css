@@ -1,33 +1,8 @@
 body {
   background-color: #000;
-  /*background-image: url("../img/screen.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: left top;
-  background-attachment: fixed;
-  
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;*/
 }
 
 #lockscreen {
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome and Opera */
-    -webkit-user-drag: none;
-     -khtml-user-drag: none;
-       -moz-user-drag: none;
-        -ms-user-drag: none;
-            user-drag: none;
-  
   /* pointer-events: none; */
   z-index: -1;
 }
