@@ -29,6 +29,7 @@ body {
             user-drag: none;
   
   /* pointer-events: none; */
+  z-index: -1;
 }
 
 a {
@@ -39,10 +40,6 @@ a {
   position: fixed;
   top: 0;
   left: 0;
-}
-
-#lockscreen {
-  z-index: -1;
 }
 
 #time {
