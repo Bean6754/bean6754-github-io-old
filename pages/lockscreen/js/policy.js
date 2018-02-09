@@ -1,2 +1,2 @@
 // Disable dragging images.
-document.getElementById('footer-logos').draggable = false;
+document.getElementById('footer-ethernet').draggable = false;
