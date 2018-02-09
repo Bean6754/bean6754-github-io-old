@@ -39,7 +39,9 @@ a {
   position: fixed;
   top: 0;
   left: 0;
-  
+}
+
+#lockscreen {
   z-index: -1;
 }
 
