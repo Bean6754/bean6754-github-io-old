@@ -55,6 +55,11 @@ body {
 
 #footer-logos {
   margin: 24px 24px;
+  -khtml-user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 #login {
