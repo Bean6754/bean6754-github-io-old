@@ -31,6 +31,10 @@ body {
   z-index: -1;*/
 }
 
+a {
+    cursor: pointer;
+}
+
 #background img {
   position: fixed;
   top: 0;
