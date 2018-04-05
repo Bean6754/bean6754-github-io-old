@@ -11,7 +11,9 @@ body {
 
 @font-face {
   font-family: UncialAntiqua-Regular;
-  src: url(../fonts/Uncial Antiqua/UncialAntiqua-Regular.ttf)
+  src: url(../fonts/Uncial Antiqua/UncialAntiqua-Regular.ttf);
+}
+
 h1 {
   color: #880000;
   font-family: UncialAntiqua-Regular;
