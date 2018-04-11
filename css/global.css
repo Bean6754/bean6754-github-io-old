@@ -6,17 +6,17 @@
 
 body {
   background-color: #282828;
-  font-family: "Rise of Kingdom";
+  font-family: "Uncial Antique";
 }
 
 @font-face {
-  font-family: "Rise of Kingdom";
-  src: url("../fonts/Rise of Kingdom/Rise of Kingdom.ttf");
+  font-family: "Uncial Antique";
+  src: url("../fonts/Uncial Antiqua/UncialAntiqua-Regular.otf");
 }
 
 h1 {
   color: #880000;
-  font-family: "Rise of Kingdom";
+  font-family: "Uncial Antique";
   font-size: 24px;
   text-align: center;
   text-decoration: underline;
@@ -29,7 +29,7 @@ h1:hover {
 
 h2 {
   color: #880000;
-  font-family: "Rise of Kingdom";
+  font-family: "Uncial Antique";
   font-size: 18px;
   text-align: left;
   text-decoration: underline;
@@ -42,7 +42,7 @@ h2:hover {
 
 #navbar {
   background-color: #572199;
-  font-family: "Rise of Kingdom";
+  font-family: "Uncial Antique";
   font-size: 16px;
   padding: 20px;
   border:2px solid #140030;
@@ -113,13 +113,13 @@ h2:hover {
 
 a {
   color: #0061FF;
-  font-family: "Rise of Kingdom";
+  font-family: "Uncial Antique";
   font-size: 16px;
 }
 
 h2 {
   color: #FFFFFF;
-  font-family: "Rise of Kingdom";
+  font-family: "Uncial Antique";
   font-size: 24px;
   text-align: left;
   text-decoration: underline;
@@ -127,7 +127,7 @@ h2 {
 
 h3 {
   color: #FFFFFF;
-  font-family: "Rise of Kingdom";
+  font-family: "Uncial Antique";
   font-size: 22px;
   text-align: left;
   text-decoration: none;
