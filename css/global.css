@@ -15,6 +15,9 @@ body {
 }
 
 h1 {
+  margin: auto;
+  width: 260px;
+  
   color: #880000;
   font-family: "Uncial Antique";
   font-size: 24px;
@@ -28,6 +31,9 @@ h1:hover {
 }
 
 h2 {
+  margin: auto;
+  width: 260px;
+  
   color: #880000;
   font-family: "Uncial Antique";
   font-size: 18px;
