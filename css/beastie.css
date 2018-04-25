@@ -10,13 +10,13 @@
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
     0%   {left:60%; top:12%;}
-    50%  {left:90%; top:12%;}
+    50%  {left:80%; top:12%;}
     100% {left:60%; top:12%;}
 }
 
 /* Standard syntax */
 @keyframes example {
     0%   {left:60%; top:12%;}
-    50%  {left:90%; top:12%;}
+    50%  {left:80%; top:12%;}
     100% {left:60%; top:12%;}
 }
