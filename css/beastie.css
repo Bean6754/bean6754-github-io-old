@@ -1,7 +1,7 @@
 .beastie {
     position: absolute;
     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 10  s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
     animation-name: example;
     animation-duration: 10s;
     animation-iteration-count: infinite;
