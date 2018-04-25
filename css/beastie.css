@@ -1,18 +1,22 @@
-.beastie {
+.wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100px;
+    height: 100px; 
+    background-color: #ccc;
+    /* border: 1px solid black; */
+}
+
+#slide {
     position: absolute;
-    -webkit-animation: slide 0.5s forwards; /* Safari 4.0 - 8.0 */
-    -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
-    animation: slide 0.5s forwards;
-    animation-delay: 2s;
+    left: -100px;
+    width: 200px;
+    height: 275px;
+    background: transparent;
+    transition: 1s;
 }
 
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes slide {
-    0%   {left:60%; top:12%;}
-    100% {left:80%; top:12%;}
-}
-
-@keyframes slide {
-    0%   {left:60%; top:12%;}
-    100% {left:80%; top:12%;}
+.wrapper:hover #slide {
+    transition: 1s;
+    left: 0;
 }
