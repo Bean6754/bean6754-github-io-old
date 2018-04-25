@@ -1,22 +1,22 @@
 .beastie {
     position: absolute;
     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 12s; /* Safari 4.0 - 8.0 */
     animation-name: example;
-    animation-duration: 8s;
+    animation-duration: 12s;
     animation-iteration-count: infinite;
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
-    0%   {left:20%; top:25%;}
-    50%  {left:60%; top:25%;}
-    100% {left:20%; top:25%;}
+    0%   {left:20%; top:15%;}
+    50%  {left:80%; top:15%;}
+    100% {left:20%; top:15%;}
 }
 
 /* Standard syntax */
 @keyframes example {
-    0%   {left:20%; top:25%;}
-    50%  {left:60%; top:25%;}
-    100% {left:20%; top:25%;}
+    0%   {left:20%; top:15%;}
+    50%  {left:80%; top:15%;}
+    100% {left:20%; top:15%;}
 }
