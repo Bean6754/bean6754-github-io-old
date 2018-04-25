@@ -2,9 +2,9 @@
     position: relative;
     overflow: hidden;
     width: 400px;
-    height: 475px; 
-    background-color: #ccc;
-    /* border: 1px solid black; */
+    height: 275px; 
+    background-color: transparent;
+    border: 1px solid #000;
 }
 
 #slide {
