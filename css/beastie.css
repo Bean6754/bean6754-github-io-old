@@ -1,22 +1,22 @@
 .beastie {
     position: absolute;
     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
     animation-name: example;
-    animation-duration: 1s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
-    0%   {background-color:red; left:20%; top:0px;}
-    50%  {background-color:red; left:60%; top:0px;}
-    100% {background-color:red; left:20%; top:0px;}
+    0%   {background-color:red; left:20%; top:25%;}
+    50%  {background-color:red; left:60%; top:25%;}
+    100% {background-color:red; left:20%; top:25%;}
 }
 
 /* Standard syntax */
 @keyframes example {
-    0%   {background-color:red; left:20%; top:0px;}
-    50%  {background-color:red; left:60%; top:0px;}
-    100% {background-color:red; left:20%; top:0px;}
+    0%   {background-color:red; left:20%; top:25%;}
+    50%  {background-color:red; left:60%; top:25%;}
+    100% {background-color:red; left:20%; top:25%;}
 }
