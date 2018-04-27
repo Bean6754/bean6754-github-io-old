@@ -1,7 +1,7 @@
-help1() {
+function help1() {
   alert("Hey");
 }
 
-help2() {
+function help2() {
   alert("Hey2");
 }
