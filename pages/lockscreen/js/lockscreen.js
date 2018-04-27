@@ -1,6 +1,7 @@
-howtoFunction1() {
+help1() {
   alert("Hey");
 }
-howtoFunction2() {
+
+help2() {
   alert("Hey2");
 }
