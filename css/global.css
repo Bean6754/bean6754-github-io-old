@@ -42,7 +42,7 @@ h2:hover {
   border-radius: 5%;
 }
 
-#chooser:a:hover {
+#chooser a:hover {
   opacity: 0.7;
 }
 
