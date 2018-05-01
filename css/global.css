@@ -46,6 +46,10 @@ h2:hover {
   border-radius: 5%;
 }
 
+#chooser:hover {
+  opacity: 0.5;
+}
+
 .img-bottomleft,.img-center,.img-topright {
 	position: fixed;
 	max-width: 200px;
