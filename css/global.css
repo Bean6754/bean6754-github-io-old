@@ -40,34 +40,10 @@ h2:hover {
   font-weight: bold;
 }
 
-#navbar {
-  background-color: #572199;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+#chooser {
   padding: 20px;
-  border:2px solid #140030;
+  border: 2px solid #140030;
   border-radius: 5%;
-}
-
-#navbar a {
-  color: #FFF;
-  text-decoration: none;
-}
-
-#navbar a:hover {
-  color: #CCC;
-  text-decoration: underline;
-}
-
-
-#navbar a:visited {
-  color: #0061FF;
-  text-decoration: none;
-}
-
-#navbar a:visited:hover {
-  color: #1C73FF;
-  text-decoration: underline;
 }
 
 .img-bottomleft,.img-center,.img-topright {
