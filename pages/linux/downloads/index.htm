@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <title>Downloads</title>
+  <link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico">
+  <link rel="stylesheet" type="text/css" href="../../css/global.css">
+</head>
+<style>
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.modal-content p {
+  color: #000000;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+</style>
+<body>
+  <div id="navbar">
+    <a href="../../index.htm">Home</a> | 
+    <a href="index.htm">Downloads</a> |
+    <a href="../dvorak/index.htm">Dvorak</a> |
+    <a href="https://github.com/Bean6754">My Github</a>
+  </div>
+  <h2>Downloads</h2>
+    <img src="../../images/Tux.png" height="128" width="128" alt="Tux.png failed to load."><h2>Linux</h2>
+    <button id="btnModal">Find out if you need 64bit or 32bit.</button>
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>It's all in the processor.</p>
+        <p>Most modern day computers use a 64bit processor.</p>
+        <p>If you're not sure try 64bit first. Then if 64bit doesn't work, use 32bit.</p>
+      </div>
+    </div>
+    <div id="links">
+    <h3>Latest stable Linux kernel.</h3>
+      &emsp;<a href="https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.15.9.tar.xz">Linux 4.15.9</a> <br>
+    <h3>Latest mainline kernel.</h3>
+      &emsp;<a href="https://git.kernel.org/torvalds/t/linux-4.16-rc5.tar.gz">Linux 4.16-rc5</a> <br>
+    <h3>Linux</h3>
+    <h3>Gentoo Minimal CD (recommended)</h3>
+      <p>64bit</p>
+      &emsp;<a href="http://distfiles.gentoo.org/releases/amd64/autobuilds/20180116T214503Z/install-amd64-minimal-20180116T214503Z.iso">Gentoo Minimal CD 64bit</a><br>
+      <p>32bit</p>
+      &emsp;<a href="http://distfiles.gentoo.org/releases/x86/autobuilds/20180117T214502Z/install-x86-minimal-20180117T214502Z.iso">Gentoo Minimal CD 32bit</a><br>
+    <h3>Gentoo LiveDVD (outdated)</h3>
+      <p>64bit</p>
+      &emsp;<a href="http://bouncer.gentoo.org/fetch/gentoo-20160704-livedvd/amd64/">Gentoo LiveDVD 64bit</a><br>
+      <p>32bit</p>
+      &emsp;<a href="http://bouncer.gentoo.org/fetch/gentoo-20160704-livedvd/x86/">Gentoo LiveDVD 32bit</a><br>
+    <h3>BSDs</h3>
+    <h3>OpenBSD</h3>
+      <p>64bit</p>
+      &emsp;<a href="http://mirror.ox.ac.uk/pub/OpenBSD/6.2/amd64/install62.fs">OpenBSD 6.2 USB 64bit image(HTTP)</a> <br>
+      &emsp;<a href="ftp://mirror.ox.ac.uk/pub/OpenBSD/6.2/amd64/install62.fs">OpenBSD 6.2 USB 64bit image (FTP)</a> <br>
+      <p>32bit</p>
+      &emsp;<a href="http://mirror.ox.ac.uk/pub/OpenBSD/6.2/i386/install62.fs">OpenBSD 6.2 USB 32bit image (HTTP)</a> <br>
+      &emsp;<a href="ftp://mirror.ox.ac.uk/pub/OpenBSD/6.2/i386/install62.fs">OpenBSD 6.2 USB 32bit image (FTP)</a> <br>
+    </div>
+    <h3>Multimedia<h3>
+      <p>GNU Videos</p>
+      &emsp;<a href="http://audio-video.gnu.org/video/">GNU Videos</a> <br>
+    </h3>
+<script>
+// Get the modal
+var modal = document.getElementById('modal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("btnModal");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</body>
+</html>
