@@ -1,7 +1,3 @@
-/*
-  Modified: 24/04/2018.
-*/
-
 /* Mostly in alphabetical order. */
 
 body {
@@ -46,7 +42,7 @@ h2:hover {
   border-radius: 5%;
 }
 
-#chooser:hover {
+#chooser:img:hover {
   opacity: 0.5;
 }
 
