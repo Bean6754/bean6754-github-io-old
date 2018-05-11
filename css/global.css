@@ -2,11 +2,14 @@
 
 body {
   background-color: #282828;
+  font-family: Arial, Helvetica, sans-serif !important;
 }
 
+/* The *-selector means any/all elements, but will obviously be on the bottom of the property chain when it comes to overriding more specific selectors.
+Note that the !important flag will render the font-style for * to be absolute, even if other selectors have been used to set the text (for example, the body or maybe a p).
 * {
-  font-family: Arial, Helvetica, sans-serif;
-}
+  font-family: Arial, Helvetica, sans-serif !important;
+} */
 
 h1 {
   margin: auto;
