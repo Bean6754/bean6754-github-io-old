@@ -9,7 +9,7 @@ if (active == 0) {
 		<button onClick="">User</button><br>\
 		<a href="../../index.htm">Sign out</a><br>\
 		<a href="https://github.com/bean6754">About Me</a>\
-	</div>
+	</div>\
 	';
 	
 	active = 1;
