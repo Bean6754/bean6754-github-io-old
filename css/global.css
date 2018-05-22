@@ -1,7 +1,7 @@
 /* Mostly in alphabetical order. */
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, sans-serif !important;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, sans-serif;
 }
 
 /* The *-selector means any/all elements, but will obviously be on the bottom of the property chain when it comes to overriding more specific selectors.
