@@ -1,12 +1,12 @@
 /* Mostly in alphabetical order. */
 
 @font-face {
-    font-family: 'Custom-RobotoLight';
+    font-family: 'Roboto Light';
     src: url('../fonts/Roboto-Light.ttf');
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Custom-RobotoLight', Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, sans-serif !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto Light', Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, sans-serif !important;
 }
 
 /* The *-selector means any/all elements, but will obviously be on the bottom of the property chain when it comes to overriding more specific selectors.
