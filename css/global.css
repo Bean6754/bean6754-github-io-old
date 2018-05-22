@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Custom-RobotoLight', Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, sans-serif!;
+  font-family: -apple-system, BlinkMacSystemFont, 'Custom-RobotoLight', Roboto, "Helvetica Neue", Oxygen-Sans, Ubuntu, Cantarell, sans-serif !important;
 }
 
 /* The *-selector means any/all elements, but will obviously be on the bottom of the property chain when it comes to overriding more specific selectors.
